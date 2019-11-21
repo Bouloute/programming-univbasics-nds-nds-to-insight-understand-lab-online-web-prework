@@ -10,7 +10,7 @@ end
 
 def print_first_directors_movie_titles
   
-   pp directors_database[0][:movies].each {|key, value| if key == :title puts value}
+   pp directors_database[0][:movies].each {|key, value| if key == :title puts value end}
 end
 
 #pretty_print_nds(directors_database)
