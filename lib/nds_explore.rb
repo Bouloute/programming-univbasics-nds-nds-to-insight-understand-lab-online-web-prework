@@ -11,10 +11,10 @@ end
 def print_first_directors_movie_titles
   
    directors_database[0][:movies].each {|key, value| 
-    
-    if (key == :title)
-      puts value 
-    end
+     puts key
+    #if (key == :title)
+    #  puts value 
+    #end
      
    }
   end
